@@ -34,25 +34,35 @@ public class MainMenu extends ActionBarActivity {
 		} */
 		return super.onOptionsItemSelected(item);
 	}
-	public void goToNCRCWebsite(View view) {
-        Uri uriUrl = Uri.parse("http://ncrc.hcura.org");
-        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
-        startActivity(launchBrowser);
-	}
 	
-	public void openSchedule(View view) {
-	    Intent intent = new Intent(this, Schedule.class);
-	    startActivity(intent);
+	public void openButton(View v) {
+	    switch (v.getId()) {
+	    case (R.id.schedulebutton):
+		    Intent scheduleintent = new Intent(this, Schedule.class);
+		    startActivity(scheduleintent);
+		    break;
+	    case (R.id.contactsbutton):
+		    Intent contactsintent = new Intent(this, Contacts.class);
+		    startActivity(contactsintent);
+		    break;
+	    case (R.id.mapbutton):
+	        Intent mapintent = new Intent(this, Map.class);
+	    	startActivity(mapintent);
+		    break;
+	    case (R.id.websitebutton):
+	        Uri uriUrl = Uri.parse("http://ncrc.hcura.org");
+	        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+	        startActivity(launchBrowser);
+	    case (R.id.facebookbutton):
+	        Intent facebookintent = new Intent(this, Facebook.class);
+	    	startActivity(facebookintent);
+	    }
+	    return;
 	}
-	
-	public void openContacts(View view) {
-	    Intent intent = new Intent(this, Contacts.class);
-	    startActivity(intent);
-	}
+
 
 
 public void openMap(View view) {
-    Intent intent = new Intent(this, Map.class);
-    startActivity(intent);
+
 }
 }
