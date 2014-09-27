@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="top"
+            android:contentDescription="@string/grid_item"
             android:src="@drawable/sample_0"
             android:scaleType="centerCrop"/>
     </FrameLayout>   
@@ -23,7 +24,7 @@
         android:id="@+id/grid_item_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="label"
+        android:text="@string/hello_world"
         android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>
