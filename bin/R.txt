@@ -356,7 +356,7 @@ int id action_context_bar 0x7f08002f
 int id action_menu_divider 0x7f080028
 int id action_menu_presenter 0x7f080029
 int id action_mode_close_button 0x7f080036
-int id action_settings 0x7f080060
+int id action_settings 0x7f080061
 int id activity_chooser_view_content 0x7f080037
 int id always 0x7f08001e
 int id banner 0x7f080051
@@ -378,11 +378,13 @@ int id end 0x7f080025
 int id expand_activities_button 0x7f080038
 int id expanded_menu 0x7f08003e
 int id facebookbutton 0x7f080056
-int id fri_action 0x7f080062
+int id fri_action 0x7f080063
 int id friday_text 0x7f08005c
 int id grayscale 0x7f080012
+int id grid_item_holder 0x7f08005e
+int id grid_item_image 0x7f08005f
+int id grid_item_label 0x7f080060
 int id gridview 0x7f08004f
-int id holder 0x7f08005f
 int id holo_dark 0x7f080005
 int id holo_light 0x7f080006
 int id home 0x7f080026
@@ -394,7 +396,6 @@ int id ifRoom 0x7f08001d
 int id image 0x7f080039
 int id inno_button_1 0x7f08005b
 int id keynote_button_1 0x7f08005a
-int id label 0x7f08005e
 int id listMode 0x7f080014
 int id list_item 0x7f08003b
 int id map 0x7f080057
@@ -410,7 +411,7 @@ int id progress_circular 0x7f08002a
 int id progress_horizontal 0x7f08002b
 int id radio 0x7f080041
 int id sandbox 0x7f080008
-int id sat_action 0x7f080063
+int id sat_action 0x7f080064
 int id satellite 0x7f080002
 int id saturday_text 0x7f08005d
 int id schedule_scrollview 0x7f080058
@@ -435,7 +436,7 @@ int id strict_sandbox 0x7f080009
 int id submit_area 0x7f08004b
 int id tabMode 0x7f080015
 int id terrain 0x7f080003
-int id thurs_action 0x7f080061
+int id thurs_action 0x7f080062
 int id thursday_text 0x7f080059
 int id title 0x7f08003d
 int id top_action_bar 0x7f080032

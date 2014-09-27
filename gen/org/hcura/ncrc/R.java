@@ -1492,7 +1492,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
-        public static final int action_settings=0x7f080060;
+        public static final int action_settings=0x7f080061;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int banner=0x7f080051;
@@ -1514,11 +1514,13 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f080038;
         public static final int expanded_menu=0x7f08003e;
         public static final int facebookbutton=0x7f080056;
-        public static final int fri_action=0x7f080062;
+        public static final int fri_action=0x7f080063;
         public static final int friday_text=0x7f08005c;
         public static final int grayscale=0x7f080012;
+        public static final int grid_item_holder=0x7f08005e;
+        public static final int grid_item_image=0x7f08005f;
+        public static final int grid_item_label=0x7f080060;
         public static final int gridview=0x7f08004f;
-        public static final int holder=0x7f08005f;
         public static final int holo_dark=0x7f080005;
         public static final int holo_light=0x7f080006;
         public static final int home=0x7f080026;
@@ -1530,7 +1532,6 @@ containing a value of this type.
         public static final int image=0x7f080039;
         public static final int inno_button_1=0x7f08005b;
         public static final int keynote_button_1=0x7f08005a;
-        public static final int label=0x7f08005e;
         public static final int listMode=0x7f080014;
         public static final int list_item=0x7f08003b;
         public static final int map=0x7f080057;
@@ -1546,7 +1547,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f08002b;
         public static final int radio=0x7f080041;
         public static final int sandbox=0x7f080008;
-        public static final int sat_action=0x7f080063;
+        public static final int sat_action=0x7f080064;
         public static final int satellite=0x7f080002;
         public static final int saturday_text=0x7f08005d;
         public static final int schedule_scrollview=0x7f080058;
@@ -1571,7 +1572,7 @@ containing a value of this type.
         public static final int submit_area=0x7f08004b;
         public static final int tabMode=0x7f080015;
         public static final int terrain=0x7f080003;
-        public static final int thurs_action=0x7f080061;
+        public static final int thurs_action=0x7f080062;
         public static final int thursday_text=0x7f080059;
         public static final int title=0x7f08003d;
         public static final int top_action_bar=0x7f080032;

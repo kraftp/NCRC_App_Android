@@ -77,8 +77,8 @@ public class Facebook extends ActionBarActivity {
 	            convertView = (View) i.inflate(R.layout.grid_item, parent, false);
 	        }
 
-	        TextView t = (TextView) convertView.findViewById(R.id.label);
-	        ImageView i = (ImageView) convertView.findViewById(R.id.image);
+	        TextView t = (TextView) convertView.findViewById(R.id.grid_item_label);
+	        ImageView i = (ImageView) convertView.findViewById(R.id.grid_item_image);
 
 	        t.setText("label " + position);
 	        i.setImageResource(mThumbIds[position]);
