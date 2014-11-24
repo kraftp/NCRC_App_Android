@@ -44,15 +44,45 @@ public class Schedule extends ActionBarActivity {
 	}
 	
 	public void openDetails(View v) {
+	    Intent inno_intent = new Intent(this, Inno_1.class);
 	    switch (v.getId()) {
 	    case (R.id.keynote_button_1):
 		    Intent keynote_1_intent = new Intent(this, Keynote_1.class);
 		    startActivity(keynote_1_intent);
 	    break;
-	    case (R.id.inno_button_1):
-		    Intent inno_1_intent = new Intent(this, Inno_1.class);
-		    startActivity(inno_1_intent);
+	    case (R.id.keynote_button_2):
+		    Intent keynote_2_intent = new Intent(this, Keynote_2.class);
+		    startActivity(keynote_2_intent);
 	    break;
+	    case (R.id.keynote_button_3):
+		    Intent keynote_3_intent = new Intent(this, Keynote_3.class);
+		    startActivity(keynote_3_intent);
+	    break;
+	    case (R.id.keynote_button_4):
+		    Intent keynote_4_intent = new Intent(this, Keynote_4.class);
+		    startActivity(keynote_4_intent);
+	    break;
+	    case (R.id.keynote_button_5):
+		    Intent keynote_5_intent = new Intent(this, Keynote_5.class);
+		    startActivity(keynote_5_intent);
+	    break;
+	    case (R.id.keynote_button_6):
+		    Intent keynote_6_intent = new Intent(this, Keynote_6.class);
+		    startActivity(keynote_6_intent);
+	    break;
+	    case (R.id.inno_button_1):
+		    startActivity(inno_intent);
+	    break;
+	    case (R.id.inno_button_2):
+		    startActivity(inno_intent);
+	    break;	    
+	    case (R.id.inno_button_3):
+		    startActivity(inno_intent);
+	    break;	 
+	    case (R.id.inno_button_4):
+		    startActivity(inno_intent);
+	    break;	
+
 	    }
 	}
 }
