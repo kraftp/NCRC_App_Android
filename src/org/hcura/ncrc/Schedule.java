@@ -51,7 +51,7 @@ public class Schedule extends ActionBarActivity {
 		    startActivity(keynote_1_intent);
 	    break;
 	    case (R.id.keynote_button_2):
-		    Intent keynote_2_intent = new Intent(this, Keynote_2.class);
+		    Intent keynote_2_intent = new Intent(this, Plenary1.class);
 		    startActivity(keynote_2_intent);
 	    break;
 	    case (R.id.keynote_button_3):
@@ -82,7 +82,22 @@ public class Schedule extends ActionBarActivity {
 	    case (R.id.inno_button_4):
 		    startActivity(inno_intent);
 	    break;	
-
+	    case (R.id.plenary_button_1):
+		    Intent plenary_1_intent = new Intent(this, Plenary2.class);
+		    startActivity(plenary_1_intent);
+	    break;
+	    case (R.id.plenary_button_2):
+		    Intent plenary_2_intent = new Intent(this, Keynote_2.class);
+		    startActivity(plenary_2_intent);
+	    break;
+	    case (R.id.workshops_button_1):
+		    Intent workshops_1_intent = new Intent(this, Workshops_Panels_1.class);
+		    startActivity(workshops_1_intent);
+	    break;
+	    case (R.id.workshops_button_2):
+		    Intent workshops_2_intent = new Intent(this, Workshops_Panels_2.class);
+		    startActivity(workshops_2_intent);
+	    break;	    
 	    }
 	}
 }

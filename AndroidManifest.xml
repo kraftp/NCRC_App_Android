@@ -81,6 +81,22 @@
             android:name=".Keynote_6"
             android:label="@string/title_activity_keynote_6" >
         </activity>
+        <activity
+            android:name=".Plenary1"
+            android:label="@string/title_activity_plenary1" >
+        </activity>
+        <activity
+            android:name=".Plenary2"
+            android:label="@string/title_activity_plenary2" >
+        </activity>
+        <activity
+            android:name=".Workshops_Panels_1"
+            android:label="@string/title_activity_workshops__panels_1" >
+        </activity>
+        <activity
+            android:name=".Workshops_Panels_2"
+            android:label="@string/title_activity_workshops__panels_2" >
+        </activity>
     </application>
 
 </manifest>
