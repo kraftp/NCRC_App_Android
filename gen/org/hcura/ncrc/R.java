@@ -1536,7 +1536,7 @@ containing a value of this type.
         public static final int inno_button_4=0x7f080069;
         public static final int inno_challenge_textview=0x7f080051;
         public static final int keynote_button_1=0x7f08005d;
-        public static final int keynote_button_2=0x7f08005f;
+        public static final int keynote_button_2=0x7f080061;
         public static final int keynote_button_3=0x7f080063;
         public static final int keynote_button_4=0x7f080067;
         public static final int keynote_button_5=0x7f08006b;
@@ -1553,8 +1553,8 @@ containing a value of this type.
         public static final int normal=0x7f080001;
         public static final int plenary_1_textview=0x7f08005a;
         public static final int plenary_2_textview=0x7f08005b;
-        public static final int plenary_button_1=0x7f080060;
-        public static final int plenary_button_2=0x7f080061;
+        public static final int plenary_button_1=0x7f08005f;
+        public static final int plenary_button_2=0x7f080060;
         public static final int production=0x7f080007;
         public static final int progress_circular=0x7f08002a;
         public static final int progress_horizontal=0x7f08002b;
