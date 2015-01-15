@@ -12,5 +12,29 @@
         android:drawableLeft="@drawable/ic_action_call"
         android:background="#FFFFFFFF"
         android:onClick="contactCall" />  
+    <Button
+        android:id="@+id/comm_1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comm_1_contact"
+        android:drawableLeft="@drawable/ic_action_call"
+        android:background="#FFFFFFFF"
+        android:onClick="contactCall" />         
+    <Button
+        android:id="@+id/comm_2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comm_2_contact"
+        android:drawableLeft="@drawable/ic_action_call"
+        android:background="#FFFFFFFF"
+        android:onClick="contactCall" /> 
+    <Button
+        android:id="@+id/comm_3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comm_3_contact"
+        android:drawableLeft="@drawable/ic_action_call"
+        android:background="#FFFFFFFF"
+        android:onClick="contactCall" /> 
    
 </LinearLayout>

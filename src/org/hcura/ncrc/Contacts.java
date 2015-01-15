@@ -37,6 +37,15 @@ public class Contacts extends ActionBarActivity {
 	    case (R.id.hupd_button):
 	    	dialPhoneNumber("6174951212");
 	    break;
+	    case (R.id.comm_1_button):
+	    	dialPhoneNumber("8576001627");
+	    break;
+	    case (R.id.comm_2_button):
+	    	dialPhoneNumber("6176829892");
+	    break;
+	    case (R.id.comm_3_button):
+	    	dialPhoneNumber("6176579782");
+	    break;
 	    }
 	}
 	

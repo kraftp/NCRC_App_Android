@@ -11,8 +11,11 @@
     <string name="map_button">Map</string>
     <string name="website_button">Website</string>
     <string name="title_activity_schedule">Schedule</string>
-    <string name="title_activity_contacts">Contacts</string>
-    <string name="hupd_contact">HUPD: 617&#8211;495&#8211;1212</string>
+    <string name="title_activity_contacts">Emergency Contacts</string>
+    <string name="hupd_contact">Harvard Police Department: 617&#8211;495&#8211;1212</string>
+    <string name="comm_1_contact">Committee Contact 1: 857&#8211;600&#8211;1627</string>
+    <string name="comm_2_contact">Committee Contact 2: 617&#8211;682&#8211;9892</string>
+    <string name="comm_3_contact">Committee Contact 3: 617&#8211;657&#8211;9782</string>
     <string name="title_activity_map">Map</string>
     <string name="title_activity_facebook">Facebook</string>
     <string name="title_activity_inno_1">Innovation Challenge</string>
@@ -38,5 +41,6 @@
     <string name="title_activity_plenary2">Plenary2</string>
     <string name="title_activity_workshops__panels_1">Workshops_Panels_1</string>
     <string name="title_activity_workshops__panels_2">Workshops_Panels_2</string>
+    <string name="title_activity_career_fair">CareerFair</string>
 
 </resources>
