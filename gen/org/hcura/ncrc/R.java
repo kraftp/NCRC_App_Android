@@ -1471,8 +1471,9 @@ containing a value of this type.
         public static final int ic_plusone_tall_off_client=0x7f02007c;
         public static final int line=0x7f02007d;
         public static final int logo=0x7f02007e;
-        public static final int powered_by_google_dark=0x7f02007f;
-        public static final int powered_by_google_light=0x7f020080;
+        public static final int northwestbasement=0x7f02007f;
+        public static final int powered_by_google_dark=0x7f020080;
+        public static final int powered_by_google_light=0x7f020081;
     }
     public static final class id {
         public static final int action_bar=0x7f08002e;
@@ -1649,39 +1650,41 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_career_fair=0x7f030018;
         public static final int activity_contacts=0x7f030019;
-        public static final int activity_inno_1=0x7f03001a;
-        public static final int activity_keynote_1=0x7f03001b;
-        public static final int activity_keynote_2=0x7f03001c;
-        public static final int activity_keynote_3=0x7f03001d;
-        public static final int activity_keynote_4=0x7f03001e;
-        public static final int activity_keynote_5=0x7f03001f;
-        public static final int activity_keynote_6=0x7f030020;
-        public static final int activity_main_menu=0x7f030021;
-        public static final int activity_map=0x7f030022;
-        public static final int activity_plenary1=0x7f030023;
-        public static final int activity_plenary2=0x7f030024;
-        public static final int activity_schedule=0x7f030025;
-        public static final int activity_workshops_panels_1=0x7f030026;
-        public static final int activity_workshops_panels_2=0x7f030027;
-        public static final int support_simple_spinner_dropdown_item=0x7f030028;
+        public static final int activity_floor_plan=0x7f03001a;
+        public static final int activity_inno_1=0x7f03001b;
+        public static final int activity_keynote_1=0x7f03001c;
+        public static final int activity_keynote_2=0x7f03001d;
+        public static final int activity_keynote_3=0x7f03001e;
+        public static final int activity_keynote_4=0x7f03001f;
+        public static final int activity_keynote_5=0x7f030020;
+        public static final int activity_keynote_6=0x7f030021;
+        public static final int activity_main_menu=0x7f030022;
+        public static final int activity_map=0x7f030023;
+        public static final int activity_plenary1=0x7f030024;
+        public static final int activity_plenary2=0x7f030025;
+        public static final int activity_schedule=0x7f030026;
+        public static final int activity_workshops_panels_1=0x7f030027;
+        public static final int activity_workshops_panels_2=0x7f030028;
+        public static final int support_simple_spinner_dropdown_item=0x7f030029;
     }
     public static final class menu {
         public static final int career_fair=0x7f0c0000;
         public static final int contacts=0x7f0c0001;
-        public static final int inno_1=0x7f0c0002;
-        public static final int keynote_1=0x7f0c0003;
-        public static final int keynote_2=0x7f0c0004;
-        public static final int keynote_3=0x7f0c0005;
-        public static final int keynote_4=0x7f0c0006;
-        public static final int keynote_5=0x7f0c0007;
-        public static final int keynote_6=0x7f0c0008;
-        public static final int main_menu=0x7f0c0009;
-        public static final int map=0x7f0c000a;
-        public static final int plenary1=0x7f0c000b;
-        public static final int plenary2=0x7f0c000c;
-        public static final int schedule=0x7f0c000d;
-        public static final int workshops_panels_1=0x7f0c000e;
-        public static final int workshops_panels_2=0x7f0c000f;
+        public static final int floor_plan=0x7f0c0002;
+        public static final int inno_1=0x7f0c0003;
+        public static final int keynote_1=0x7f0c0004;
+        public static final int keynote_2=0x7f0c0005;
+        public static final int keynote_3=0x7f0c0006;
+        public static final int keynote_4=0x7f0c0007;
+        public static final int keynote_5=0x7f0c0008;
+        public static final int keynote_6=0x7f0c0009;
+        public static final int main_menu=0x7f0c000a;
+        public static final int map=0x7f0c000b;
+        public static final int plenary1=0x7f0c000c;
+        public static final int plenary2=0x7f0c000d;
+        public static final int schedule=0x7f0c000e;
+        public static final int workshops_panels_1=0x7f0c000f;
+        public static final int workshops_panels_2=0x7f0c0010;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1829,6 +1832,7 @@ containing a value of this type.
         public static final int map_button=0x7f07002f;
         public static final int mcnutt_bio=0x7f070043;
         public static final int meselson_bio=0x7f070047;
+        public static final int northwestbasement=0x7f07004f;
         public static final int pfister_bio=0x7f070048;
         public static final int sat_action=0x7f07003c;
         public static final int schedule_button=0x7f07002b;
@@ -1837,6 +1841,7 @@ containing a value of this type.
         public static final int title_activity_career_fair=0x7f07004d;
         public static final int title_activity_contacts=0x7f070032;
         public static final int title_activity_facebook=0x7f070038;
+        public static final int title_activity_floor_plan=0x7f07004e;
         public static final int title_activity_inno_1=0x7f070039;
         public static final int title_activity_keynote_1=0x7f07003d;
         public static final int title_activity_keynote_2=0x7f07003e;

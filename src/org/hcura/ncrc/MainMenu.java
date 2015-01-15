@@ -54,6 +54,15 @@ public class MainMenu extends ActionBarActivity {
 	        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
 	        startActivity(launchBrowser);
 	        break;
+	    case (R.id.updatesbutton):
+	        Uri uriUrlupdates = Uri.parse("http://ncrc.hcura.org/updates");
+	        Intent launchBrowserupdates = new Intent(Intent.ACTION_VIEW, uriUrlupdates);
+	        startActivity(launchBrowserupdates);
+	        break;	      
+	    case (R.id.floorbutton):
+	        Intent floorintent = new Intent(this, FloorPlan.class);
+	    	startActivity(floorintent);
+		    break;	        
 	    }
 	    return;
 	}

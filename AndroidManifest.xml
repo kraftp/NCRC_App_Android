@@ -97,6 +97,10 @@
             android:name=".CareerFair"
             android:label="@string/title_activity_career_fair" >
         </activity>
+        <activity
+            android:name=".FloorPlan"
+            android:label="@string/title_activity_floor_plan" >
+        </activity>
     </application>
 
 </manifest>
