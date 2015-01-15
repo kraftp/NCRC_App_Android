@@ -58,10 +58,6 @@
             android:label="@string/title_activity_keynote_1" >
         </activity>
         <activity
-            android:name=".Facebook"
-            android:label="@string/title_activity_facebook" >
-        </activity>
-        <activity
             android:name=".Keynote_2"
             android:label="@string/title_activity_keynote_2" >
         </activity>

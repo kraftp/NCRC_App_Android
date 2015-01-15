@@ -6,8 +6,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="schedule_button">Schedule</string>
+    <string name="updates_button">Updates</string>
+    <string name="floor_button">Floor Plan</string>
     <string name="contacts_button">Contacts</string>
-    <string name="facebook_button">Facebook</string>
     <string name="map_button">Map</string>
     <string name="website_button">Website</string>
     <string name="title_activity_schedule">Schedule</string>

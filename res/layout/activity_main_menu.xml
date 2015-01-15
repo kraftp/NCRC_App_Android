@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FFFFFFFF"
-        android:drawableTop="@drawable/ic_action_place"
+        android:drawableTop="@drawable/ic_action_map"
         android:text="@string/map_button"
         android:layout_marginTop="5dp"
         android:layout_below="@+id/contactsbutton"
@@ -71,18 +71,33 @@
         android:layout_alignParentRight="true"
         android:onClick="openButton" />
     
+    
     <Button
-        android:id="@+id/facebookbutton"
+        android:id="@+id/updatesbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FFFFFFFF"
-        android:drawableTop="@drawable/ic_action_person"
-        android:text="@string/facebook_button"
+        android:drawableTop="@drawable/ic_action_upload"
+        android:text="@string/updates_button"
+        android:layout_toLeftOf="@+id/view"
         android:layout_marginTop="5dp"
         android:layout_below="@+id/websitebutton"
+        android:layout_alignParentLeft="true"
+        android:onClick="openButton" />
+    
+    <Button
+        android:id="@+id/floorbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:drawableTop="@drawable/ic_action_place"
+        android:text="@string/floor_button"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/mapbutton"
         android:layout_toRightOf="@+id/view"
         android:layout_alignParentRight="true"
-        android:onClick="openButton" />
+        android:onClick="openButton" />    
+    
     
 
 </RelativeLayout>

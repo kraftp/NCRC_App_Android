@@ -53,9 +53,7 @@ public class MainMenu extends ActionBarActivity {
 	        Uri uriUrl = Uri.parse("http://ncrc.hcura.org");
 	        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
 	        startActivity(launchBrowser);
-	    case (R.id.facebookbutton):
-	        Intent facebookintent = new Intent(this, Facebook.class);
-	    	startActivity(facebookintent);
+	        break;
 	    }
 	    return;
 	}
