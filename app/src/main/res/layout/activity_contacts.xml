@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/hupd_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hupd_contact"
+        android:drawableLeft="@drawable/ic_action_call"
+        android:background="#FFFFFFFF"
+        android:onClick="contactCall" />  
+    <Button
+        android:id="@+id/comm_1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comm_1_contact"
+        android:drawableLeft="@drawable/ic_action_call"
+        android:background="#FFFFFFFF"
+        android:onClick="contactCall" />         
+    <Button
+        android:id="@+id/comm_2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comm_2_contact"
+        android:drawableLeft="@drawable/ic_action_call"
+        android:background="#FFFFFFFF"
+        android:onClick="contactCall" /> 
+    <Button
+        android:id="@+id/comm_3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comm_3_contact"
+        android:drawableLeft="@drawable/ic_action_call"
+        android:background="#FFFFFFFF"
+        android:onClick="contactCall" /> 
+   
+</LinearLayout>

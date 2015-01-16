@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+   
+    
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true" />
+    
+     <ImageView
+      android:id="@+id/banner"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:src="@drawable/banner"
+      android:layout_marginBottom="10dp"
+      android:contentDescription="@string/app_name"/> 
+
+    <Button
+        android:id="@+id/schedulebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:drawableTop="@drawable/ic_action_paste"
+        android:text="@string/schedule_button"
+        android:layout_below="@+id/banner"
+        android:layout_toLeftOf="@+id/view"
+        android:layout_alignParentLeft="true"
+        android:onClick="openButton" />
+
+    <Button
+        android:id="@+id/contactsbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:drawableTop="@drawable/ic_action_share"
+        android:text="@string/contacts_button" 
+        android:layout_below="@+id/banner"
+        android:layout_toRightOf="@+id/view"
+        android:layout_alignParentRight="true"
+        android:onClick="openButton" />
+    
+    <Button
+        android:id="@+id/websitebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:drawableTop="@drawable/ic_action_computer"
+        android:text="@string/website_button"
+        android:layout_toLeftOf="@+id/view"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/schedulebutton"
+        android:layout_alignParentLeft="true"
+        android:onClick="openButton" />
+    
+    <Button
+        android:id="@+id/mapbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:drawableTop="@drawable/ic_action_map"
+        android:text="@string/map_button"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/contactsbutton"
+        android:layout_toRightOf="@+id/view"
+        android:layout_alignParentRight="true"
+        android:onClick="openButton" />
+    
+    
+    <Button
+        android:id="@+id/updatesbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:drawableTop="@drawable/ic_action_upload"
+        android:text="@string/updates_button"
+        android:layout_toLeftOf="@+id/view"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/websitebutton"
+        android:layout_alignParentLeft="true"
+        android:onClick="openButton" />
+    
+    <Button
+        android:id="@+id/floorbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:drawableTop="@drawable/ic_action_place"
+        android:text="@string/floor_button"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/mapbutton"
+        android:layout_toRightOf="@+id/view"
+        android:layout_alignParentRight="true"
+        android:onClick="openButton" />    
+    
+    
+
+</RelativeLayout><!-- From: file:/C:/Users/Peter/AndroidstudioProjects/NCRC/app/src/main/res/layout/activity_main_menu.xml -->
