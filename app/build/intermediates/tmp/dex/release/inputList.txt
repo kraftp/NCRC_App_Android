@@ -1,0 +1,6 @@
+C:\Users\Peter\AndroidstudioProjects\NCRC\app\build\intermediates\classes\release
+C:\Users\Peter\AndroidstudioProjects\NCRC\app\build\intermediates\pre-dexed\release\support-annotations-21.0.0-ebe9bfd4886057ad6211411193700506f277e7fc.jar
+C:\Users\Peter\AndroidstudioProjects\NCRC\app\build\intermediates\pre-dexed\release\internal_impl-21.0.0-dfa579ad2003fc61e06eba899b99c67eebfa7f33.jar
+C:\Users\Peter\AndroidstudioProjects\NCRC\app\build\intermediates\pre-dexed\release\classes-cdc4b5d721d8db5ec6dd87ad3a55944cc7427e61.jar
+C:\Users\Peter\AndroidstudioProjects\NCRC\app\build\intermediates\pre-dexed\release\classes-9a95781c5aa4476ca3f072195ce41f6a5a5bcdf7.jar
+C:\Users\Peter\AndroidstudioProjects\NCRC\app\build\intermediates\pre-dexed\release\classes-7176d214342dba28105cfa11ca30113310a763bb.jar

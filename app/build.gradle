@@ -1,19 +1,26 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'NCRCKey'
+            keyPassword 'hcura2015'
+            storeFile file('C:/Users/Peter/AndroidstudioProjects/androidkeys.jks')
+            storePassword 'hcura2015'
+        }
+    }
     compileSdkVersion 20
     buildToolsVersion "21.1.2"
-
     defaultConfig {
         applicationId "org.hcura.ncrc"
         minSdkVersion 11
         targetSdkVersion 20
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.config
         }
     }
 }
