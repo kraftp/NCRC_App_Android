@@ -9,8 +9,8 @@ android {
             storePassword 'hcura2015'
         }
     }
-    compileSdkVersion 20
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
     defaultConfig {
         applicationId "org.hcura.ncrc"
         minSdkVersion 11
